@@ -10,7 +10,7 @@ export const Header = () => {
 
     return (
         <div className="p-[10px] w-100 h-full flex flex-col items-center text-white">
-            <div className="flex flex-col items-center justify-center flex-grow w-full">
+            <div className="flex flex-col items-center justify-center flex-grow w-full gap-[10px]">
                 <Link className={styles.menuItem} href="/">
                     <BsMortarboardFill className="mr-[60px] ml-[20px]" size={30} />
                     <div>Study</div>

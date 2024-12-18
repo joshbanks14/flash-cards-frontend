@@ -12,10 +12,10 @@ export default function ContentLayout({
 
   return (
     <div className='h-full w-full flex flex-row bg-[#0c331b]'>
-        <div className='w-[400px] h-full'>
+        <div className='w-[400px] h-full pb-[10px]'>
           <Header />
         </div>
-        <div className='w-full h-full'>
+        <div className='w-full h-full pt-[20px] pr-[20px] pb-[20px]'>
           {children}
         </div>
     </div>
